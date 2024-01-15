@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+/* navbar styles */
+.nav-section {
+  max-width: 1280px;
+  /* background-color: red; */
+  margin: 0 auto;
+  /* border: 2px solid blue; */
+  display: flex;
+}
+.nav-container {
+  /* border: 2px solid red; */
+  min-height: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 50%;
+}
+
+.nav-container img {
+  width: 90px;
+  object-fit: cover;
+}
+
+.nav-container p {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.special {
+  background: linear-gradient(45deg, #9e3600, #ff5400, #ffa327);
+  background-clip: text;
+  color: transparent;
+}
+
+.nav-items {
+  /* border: 2px solid yellow; */
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #424247;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#home {
+  color: #ff5400;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* banner styles */
+
+.banner {
+  max-width: 1280px;
+  border: 2px solid red;
+  margin: 50px auto;
+  
+  
+}
+.banner-section {
+    position: relative;
+    text-align: center;
+}
+
+.banner-img {
+  max-width: 1280px;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(19, 19, 24, 0.8) 0%,
+    rgba(19, 19, 24, 0) 100%
+  );
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.banner-text {
+  /* color: #FFF; */
+  border: 2px solid red;
+}
+
+.banner-text h3 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.banner-text p {
+  color: #fff;
+  text-align: center;
+
+  font-size: 16px;
+
+  font-weight: 400;
+}
+.banner-form {
+  display: inline-flex;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  border: 2px solid blue;
+}
