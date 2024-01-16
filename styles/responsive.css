@@ -1,0 +1,105 @@
+@media screen and (max-width:600px ) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        /* box-sizing: border-box; */
+        max-width: 100%;
+    }
+    .nav-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-items {
+        flex-direction: column;
+    }
+   .tours-img {
+    width: 100%;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+   }
+   .why-choose-us { 
+    margin-top: 400px;
+   }
+
+   
+    .banner-form{
+        flex-direction: column;
+    }
+    .popular-tours {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .tours-img{
+        width: 600px;
+        display: cover;
+    }
+    .destination-img {
+        grid-template-rows: 1fr;
+        
+    }
+    .destination-1 {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .destination-3 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .destination-6{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .containers {
+        grid-template-columns: 1fr;
+    }
+    .newsletter {
+        flex-direction: column;
+    }
+    .newsletter-content {
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #name,
+    #email,
+    #button {
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .save {
+        margin-left: 400px;
+    }
+
+    .newsletter-img {
+        width: 100%;
+        
+    }
+    .choose-container {
+        margin: 0;
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        margin: 0;
+    }
+}
