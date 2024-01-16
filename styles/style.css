@@ -121,7 +121,7 @@ body {
 #text,
 #when,
 #select-type {
-    color: rgba(19, 19, 24, 0.50);
+  color: rgba(19, 19, 24, 0.5);
   width: 174px;
   height: 52px;
   border-radius: 8px;
@@ -130,20 +130,19 @@ body {
   font-size: 16px;
   font-weight: 400;
   text-align: center;
-  
 }
 .banner-form p {
-    width: 174px;
-height: 52px;
-border-radius: 8px;
-background: #FF5400;
-color: #FFF;
-font-size: 16px;
-font-weight: 700;
-text-align: center;
-display: flex;
-justify-content: center;
-align-items: center;
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* popular tours styles */
@@ -153,15 +152,14 @@ align-items: center;
   margin: 50px auto;
   gap: 68px;
   justify-content: space-between;
-  
 }
 .popular-tours-ul {
-    margin-left: 30px;
-    color: rgba(19, 19, 24, 0.7);
-    font-size: 16px;
-    font-weight: 400;
-  
-    padding-bottom: 15px;
+  margin-left: 30px;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+
+  padding-bottom: 15px;
 }
 
 .tours-content {
@@ -192,7 +190,7 @@ align-items: center;
   width: 174px;
   height: 52px;
   border: 0;
-  color: #FFF;
+  color: #fff;
 }
 
 /* destination styles */
@@ -203,8 +201,25 @@ align-items: center;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   row-gap: 24px;
+ 
+
 }
-.destination-1 {
+ .destination-1 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+ }
+ .destination-1 img {
+    display: block;
+    display: inline-block;
+    position: relative;
+ }
+.destination-1 { 
+ 
+    
   height: 300px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -306,31 +321,29 @@ align-items: center;
   padding: 24px;
 }
 .container-three {
-    display: flex;
-    justify-content: center;
-    margin-top: 24px;
-    
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
 }
 .container-three-properties {
-    width: 573px;
-    height: 284px;
-    border-radius: 16px;
-    border: 1px solid rgba(251, 181, 99, 0.2);
-    background: rgba(251, 181, 99, 0.05);
-    padding: 24px;
-   
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 24px;
 }
 .container-one h5 {
-    margin-top: 32px;
-    margin-bottom: 16px;
+  margin-top: 32px;
+  margin-bottom: 16px;
 }
 .container-two h5 {
-    margin-top: 32px;
-    margin-bottom: 16px;
+  margin-top: 32px;
+  margin-bottom: 16px;
 }
 .container-three h5 {
-    margin-top: 32px;
-    margin-bottom: 16px;
+  margin-top: 32px;
+  margin-bottom: 16px;
 }
 
 /* newsletter styles */
@@ -341,7 +354,6 @@ align-items: center;
   margin: 50px auto;
   gap: 68px;
   justify-content: space-between;
-
 }
 
 .newsletter-content {
@@ -351,9 +363,9 @@ align-items: center;
   padding: 40px;
 }
 .newsletter-img {
-    width: 55%;
-    
-    margin-left: 0px;
+  width: 55%;
+
+  margin-left: 0px;
 }
 
 .newsletter-content h3 {
@@ -367,15 +379,14 @@ align-items: center;
   font-size: 16px;
   font-weight: 400;
   margin-top: 16px;
-    margin-bottom: 24px;
-
+  margin-bottom: 24px;
 }
 
 .newsletter-content hr {
   background: rgba(19, 19, 24, 0.1);
   width: 393px;
   height: 1px;
-  margin-top:24px;
+  margin-top: 24px;
   margin-bottom: 24px;
 }
 
@@ -387,7 +398,6 @@ align-items: center;
   background: rgba(19, 19, 24, 0.05);
   border: 0;
   margin-bottom: 16px;
-
 }
 #button {
   color: white;
@@ -399,3 +409,39 @@ align-items: center;
   margin-top: 8px;
 }
 
+/* footer section styles */
+footer {
+  max-width: 1280px;
+  height: 500px;
+  background: rgba(19, 19, 24, 0.05);
+  margin: 50px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.footer-logo p {
+    font-size: 32px;
+    font-weight: 800;
+}
+footer p {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.social-icons {
+    margin-bottom: 50px;
+}
+
+footer hr {
+    width: 872px;
+height: 1px;
+background: rgba(255, 255, 255, 0.15);
+margin-bottom: 50px;
+}
