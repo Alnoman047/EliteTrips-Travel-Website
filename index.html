@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EliteTrips Travel Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/responsive.css" />
   </head>
@@ -29,40 +32,70 @@
     <main>
       <!-- banner section starts here -->
       <section class="banner">
-      <div class="banner-section">
+        <div class="banner-section">
           <div class="banner-content">
             <div class="banner-text">
               <h3>Explore Your Travel</h3>
-              <p>Discover the world's wonders, one journey at a time. Explore Your Travel: Where adventure meets destination.
+              <p class="banner-description">
+                Discover the world's wonders, one journey at a time. Explore
+                Your Travel: Where adventure meets destination.
               </p>
-  
+
               <form class="banner-form">
-                  <input type="text">
-                  <select name="When" id="when" placeholder="When"></select>
-                  <select name="Select Type" id="select-type"></select>
-                  <input type="submit" value="Find Now">
+                <input type="text" id="text" placeholder="Where to go" />
+
+                <select name="When" id="when">
+                  <option value="when">When</option>
+                </select>
+                <select name="Select type" id="select-type">
+                  <option value="select-type">Select type</option>
+                </select>
+                <p><i class="fa fa-search"></i> Find now</p>
+                
               </form>
             </div>
           </div>
-      </div>
+        </div>
       </section>
       <!-- banner section ends here -->
 
       <!-- popular tours section starts here -->
       <section class="popular-tours">
         <div class="tours-content">
-            <h2>Our Popular Tours</h2>
-            <p>Embark on Extraordinary Adventures: Delve into our Popular Tour Section and discover handpicked journeys that promise to ignite your wanderlust. From iconic landmarks to hidden gems</p>
+          <h2>Our Popular Tours</h2>
+          <p>
+            Embark on Extraordinary Adventures: Delve into our Popular Tour
+            Section and discover handpicked journeys that promise to ignite your
+            wanderlust. From iconic landmarks to hidden gems
+          </p>
+         <div class="popular-tours-ul">
             <ul>
-                <li>Popular tours ensure a well-planned itinerary, covering top attractions and unique cultural encounters for a comprehensive travel experience.</li>
-                <li>Benefit from knowledgeable local guides who provide valuable insights, historical context, and insider tips, enriching your understanding of the destinations.</li>
-                <li>Enjoy stress-free travel with pre-arranged accommodations, transportation, and guided activities, allowing you to focus on creating memorable moments.</li>
-            </ul>
-            <p>let our curated selection guide you through the world's most captivating destinations, ensuring each exploration is a chapter in your travel story.</p>
-            <button class="btn-primary">Read More</button>
+                <li>
+                  Popular tours ensure a well-planned itinerary, covering top
+                  attractions and unique cultural encounters for a comprehensive
+                  travel experience.
+                </li>
+                <li>
+                  Benefit from knowledgeable local guides who provide valuable
+                  insights, historical context, and insider tips, enriching your
+                  understanding of the destinations.
+                </li>
+                <li>
+                  Enjoy stress-free travel with pre-arranged accommodations,
+                  transportation, and guided activities, allowing you to focus on
+                  creating memorable moments.
+                </li>
+              </ul>
+         </div>
+          <p>
+            let our curated selection guide you through the world's most
+            captivating destinations, ensuring each exploration is a chapter in
+            your travel story.
+          </p>
+          <button class="btn-primary">Read More</button>
         </div>
         <div class="tours-img">
-            <img src="./Images/Rectangle 4.png" alt="">
+          <img src="./Images/Rectangle 4.png" alt="" />
         </div>
       </section>
 
@@ -71,54 +104,91 @@
       <!-- destination section starts here -->
       <section class="destination">
         <div class="destination-contents">
-            <h3>Choose Your Destination</h3>
-            <p>Embark on Limitless Discoveries: Your Destination Awaits, Where Every Journey is a Story and Adventure Beckons. Choose Your Destination, Unveil the Extraordinary.</p>
+          <h3>Choose Your Destination</h3>
+          <p>
+            Embark on Limitless Discoveries: Your Destination Awaits, Where
+            Every Journey is a Story and Adventure Beckons. Choose Your
+            Destination, Unveil the Extraordinary.
+          </p>
         </div>
         <div class="destination-img">
-            <div class="destination-1">
-                <img class="destination-one"  src="./Images/Rectangle 5.png" alt="">
-                <img class="destination-2" src="./Images/Rectangle 8 (1).png" alt="">
-            </div>
-            <div class="destination-3">
-                <img class="destination-three" src="./Images/Rectangle 6.png" alt="">
-                <img class="destination-4" src="./Images/Rectangle 7.png" alt="">
-                <img class="destination-5" src="./Images/Rectangle 9.png" alt="">
-            </div>
-            <div class="destination-6">
-                <img class="destination-six" src="./Images/Rectangle 11.png" alt="">
-                <img class="destination-7" src="./Images/Rectangle 10.png" alt="">
-            </div>
+          <div class="destination-1">
+            <img
+              class="destination-one"
+              src="./Images/Rectangle 5.png"
+              alt=""
+            />
+            <img
+              class="destination-2"
+              src="./Images/Rectangle 8 (1).png"
+              alt=""
+            />
+          </div>
+          <div class="destination-3">
+            <img
+              class="destination-three"
+              src="./Images/Rectangle 6.png"
+              alt=""
+            />
+            <img class="destination-4" src="./Images/Rectangle 7.png" alt="" />
+            <img class="destination-5" src="./Images/Rectangle 9.png" alt="" />
+          </div>
+          <div class="destination-6">
+            <img
+              class="destination-six"
+              src="./Images/Rectangle 11.png"
+              alt=""
+            />
+            <img class="destination-7" src="./Images/Rectangle 10.png" alt="" />
+          </div>
         </div>
       </section>
 
-      
       <!-- destination section ends here -->
       <!-- why choose us section starts here -->
       <section class="why-choose-us">
         <div class="choose-content">
-            <h3>Why Choose Us</h3>
-            <p>Where Expertise Meets Wanderlust. Unparalleled Experiences, Seamless Journeys. Your Trusted Companion in Crafting Unforgettable Travel Memories.</p>
-
+          <h3>Why Choose Us</h3>
+          <p>
+            Where Expertise Meets Wanderlust. Unparalleled Experiences, Seamless
+            Journeys. Your Trusted Companion in Crafting Unforgettable Travel
+            Memories.
+          </p>
         </div>
         <div class="choose-container">
-            <div class="containers">
-                <div class="container-one">
-                    <img src="./Images/hotel 1.svg" alt="">
-                    <h5>Handpicked Hotels</h5>
-                    <p>Indulge in Distinct Luxury: Handpicked Hotels, Tailored Experiences. Elevate Your Stay with Unrivaled Comfort and Unforgettable Moments. Choose Excellence, Choose Handcrafted Hospitality.</p>
-                </div> 
-                <div class="container-two">
-                    <img src="./Images/map 1.svg" alt="">
-                    <h5>World Class Service</h5>
-                    <p>Setting the Standard for Excellence: World-Class Service Beyond Boundaries. Elevate Your Experience with Unparalleled Hospitality and Impeccable Attention to Detail. Where Every Moment Exceeds Expectations.</p>
-                </div>
+          <div class="containers">
+            <div class="container-one">
+              <img class="container-img" src="./Images/hotel 1.svg" alt="" />
+              <h5 class="container-header">Handpicked Hotels</h5>
+              <p class="container-description">
+                Indulge in Distinct Luxury: Handpicked Hotels, Tailored
+                Experiences. Elevate Your Stay with Unrivaled Comfort and
+                Unforgettable Moments. Choose Excellence, Choose Handcrafted
+                Hospitality.
+              </p>
             </div>
-            <div class="container-three">
-                <img src="./Images/price-tag 1.svg" alt="">
-                <h5>Best Price Guarantee</h5>
-                <p>Unlock Value, Embrace Savings: Our Best Price Guarantee Ensures You Get More for Less. Travel with Confidence, Knowing You've Found the Best Deal. Your Journey, Your Savings Guaranteed.</p>
+            <div class="container-two">
+              <img class="container-img" src="./Images/map 1.svg" alt="" />
+              <h5 class="container-header">World Class Service</h5>
+              <p class="container-description">
+                Setting the Standard for Excellence: World-Class Service Beyond
+                Boundaries. Elevate Your Experience with Unparalleled
+                Hospitality and Impeccable Attention to Detail. Where Every
+                Moment Exceeds Expectations.
+              </p>
             </div>
-
+          </div>
+          <div class="container-three">
+           <div class="container-three-properties">
+            <img class="container-img" src="./Images/price-tag 1.svg" alt="" />
+            <h5 class="container-header">Best Price Guarantee</h5>
+            <p class="container-description">
+              Unlock Value, Embrace Savings: Our Best Price Guarantee Ensures
+              You Get More for Less. Travel with Confidence, Knowing You've
+              Found the Best Deal. Your Journey, Your Savings Guaranteed.
+            </p>
+           </div>
+          </div>
         </div>
       </section>
       <!-- why choose us section ends here -->
@@ -126,33 +196,47 @@
       <!-- newsletter section starts here -->
       <section class="newsletter">
         <div class="newsletter-content">
-            <h3>Newsletter</h3>
-            <p>Get your daily dose of travel news & tips. Sign up today!</p>
-            <hr>
-            <form>
-                <input type="text" name="" id="name" placeholder="Enter Your Name">
-                <input type="email" name="" id="email" placeholder="Enter Your Email">
-                <input type="button" value="Subscribe">
-            </form>
+          <h3>Newsletter</h3>
+          <p>Get your daily dose of travel news & tips. Sign up today!</p>
+          <hr />
+          <form class="newsletter-form">
+            <input
+              type="text"
+              name=""
+              id="name"
+              placeholder="Enter Your Name"
+            />
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="Enter Your Email"
+            />
+            <input id="button" type="button" value="Subscribe" />
+          </form>
         </div>
         <div class="newsletter-img">
-            <img src="./Images/Rectangle 8 (1).png" alt="">
+          <img src="./Images/Rectangle 8 (1).png" alt="" />
         </div>
       </section>
       <!-- newsletter section ends here -->
     </main>
 
     <footer>
-        <div class="footer-logo">
-            <img src="./Images/Group 40071 (2).png" alt="" />
-            <p>Elite<span class="special">Trips</span></p>
-          </div>
-          <p>Embark on Your Journey with Us. Where Every Step Counts. Discover, Explore, and Experience the World through Unmatched Travel Excellence. Your Adventure Begins Here.</p>
+      <div class="footer-logo">
+        <img src="./Images/Group 40071 (2).png" alt="" />
+        <p>Elite<span class="special">Trips</span></p>
+      </div>
+      <p>
+        Embark on Your Journey with Us. Where Every Step Counts. Discover,
+        Explore, and Experience the World through Unmatched Travel Excellence.
+        Your Adventure Begins Here.
+      </p>
 
-          <img src="./Images/Social.svg" alt="">
+      <img src="./Images/Social.svg" alt="" />
 
-          <hr>
-          <p class="copyright">2017, All Rights Reserved.</p>
+      <hr />
+      <p class="copyright">2017, All Rights Reserved.</p>
     </footer>
   </body>
 </html>
